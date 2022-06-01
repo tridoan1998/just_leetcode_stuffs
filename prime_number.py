@@ -31,6 +31,9 @@ def is_Prime(number):
             return True
         return False
 
+def main():
+    for i in range(30):
+        print(is_Prime(i))
 
-for i in range(30):
-    print(is_Prime(i))
+if __name__ == "__main__":
+    main()
